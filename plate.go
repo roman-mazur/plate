@@ -1,6 +1,6 @@
 // A static HTTP server that will serve files in the working directory.
 // By default, will serve current process directory files on port 8080.
-// Use --plate flag for configuration options.
+// Use --help flag for configuration options.
 package main // import "rmazur.io/plate"
 
 import (
