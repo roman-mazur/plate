@@ -35,7 +35,7 @@ func main() {
 	}
 
 	go func() {
-		log.Println("Staring the HTTP server...")
+		log.Printf("Staring the HTTP server on %s...", server.Addr)
 		err := server.ListenAndServe()
 		log.Fatalf("HTTP server finished: %s. Finishing the process.", err)
 	}()
